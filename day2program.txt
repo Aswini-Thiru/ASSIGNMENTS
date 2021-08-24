@@ -1,0 +1,3 @@
+st=input("ENTER THE STRING:")
+out = {x :st.count(x) for x in set(st)}  
+print ("Occurrence of all characters in the given string is :\n "+ str(out))  
